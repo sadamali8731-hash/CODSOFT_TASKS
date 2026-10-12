@@ -36,7 +36,7 @@ const projects = [
     c: "web",
     i: "a",
     img: "",
-    demo: "https://sadamali8731-hash.github.io/CODSOFT_TASKSNO/expense%20tracker/",
+    demo: "https://sadamali8731-hash.github.io/CODSOFT_TASKS/Task-3-expense%20tracker/",
   },
   {
     t: "Task Manager",
@@ -45,7 +45,7 @@ const projects = [
     c: "web",
     i: "d",
     img: "",
-    demo: "https://sadamali8731-hash.github.io/CODSOFT_TASKSNO/task%20maneger/",
+    demo: "https://sadamali8731-hash.github.io/CODSOFT_TASKS/Task-2-task%20maneger/",
   },
 ]
 
