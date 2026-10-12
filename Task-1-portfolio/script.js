@@ -61,7 +61,7 @@ $("#coreTags").innerHTML = coreSkills.map((x) => `<span>${x}</span>`).join("")
 $("#grid").innerHTML = projects
   .map(
     (p) =>
-      `<article class="card reveal" data-c="${p.c}"><div class="thumb">${p.img ? `<img src="${p.img}" alt="${p.t} screenshot">` : thumbs[p.i]}</div><div class="body"><span class="stack">${p.s}</span><h3>${p.t}</h3><p>${p.d}</p><div class="lnk"><a href="${p.demo}"  rel="noopener">Live demo →</a></div></div></article>`,
+      `<article class="card reveal" data-c="${p.c}"><div class="thumb">${p.img ? `<img src="${p.img}" alt="${p.t} screenshot">` : thumbs[p.i]}</div><div class="body"><span class="stack">${p.s}</span><h3>${p.t}</h3><p>${p.d}</p><div class="lnk"><a href="${p.demo}" target="__blank"  rel="noopener">Live demo →</a></div></div></article>`,
   )
   .join("")
 $("#yr").textContent = new Date().getFullYear()
